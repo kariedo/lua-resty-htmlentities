@@ -11,7 +11,7 @@ else
 SO_NAME := libhtmlentities.so
 endif
 
-CFLAGS := -Wall -O3 -flto -g -fPIC -MMD
+CFLAGS := -Wall -O3 -g -fPIC -MMD
 
 ifeq ($(OS), Linux)
     CFLAGS := $(CFLAGS) -Wl,--build-id
